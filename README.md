@@ -1,12 +1,20 @@
-# React + Vite
+# Printfc.in  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview  
+Printfc.in is an online printing service designed for students to quickly and conveniently order printouts without the hassle of visiting a physical shop.  
+The platform allows users to upload documents, customize printing preferences, and get their printouts delivered.  
 
-Currently, two official plugins are available:
+## Features  
+- 📄 Upload PDFs, Word docs, and images for printing  
+- 🖨️ Choose printing options (black & white / color, single / double side, no. of copies)  
+- 👤 User authentication (sign up / login)  
+- 💳 Secure online payments  
+- 🚚 Order tracking and delivery updates  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack  
+- **Frontend:** React.js, Tailwind CSS (or Bootstrap if you used that)  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Authentication:** JWT  
+- **Hosting:** Vercel (frontend), Render (backend)  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
