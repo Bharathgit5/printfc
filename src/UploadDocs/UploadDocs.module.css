@@ -1,0 +1,102 @@
+.card-head{
+  color: black;
+  padding: 15px;
+font-size: 2.5vh;
+font-weight: 900;
+}
+
+.card-body1{
+  text-align: center;
+  margin: auto;
+  height: 240px;
+  background-color: white;
+  color: #494747;
+  border-radius: 10px;
+}
+#card1{
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.numcopies,.numpages{
+  margin: auto;
+  text-align: center;
+  
+}
+ input{
+   text-align: center;   
+}
+.numpages, .noofpagesbox {
+display: inline-block;
+vertical-align: middle;
+}
+.noofpagesbox{
+width: 100px;
+border: 2px solid black;
+border-radius: 10px;
+margin-left: 15px;
+margin-top:20px ;
+}
+.nocopiesbox{
+border: 2px solid black;
+border-radius: 10px;
+margin-left: 15px;
+width: 100px;
+margin-top:5px ;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.inputlabel {
+  display: none;
+}
+.imglabel{
+  color: white;
+}
+.uploadimage{
+padding: 10px;
+margin-bottom: 20px;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+.docnamedisp{
+  display: none;
+}
+
+@media  (max-width:768px) {
+.card-body1{
+text-align: center;
+margin: auto;
+}
+.numcopies,.numpages{
+margin: auto;
+text-align: center;
+
+}
+
+input{
+ text-align: center;   
+}
+.numpages, .noofpagesbox {
+display: inline-block;
+vertical-align: middle;
+}
+
+}
+#icon{
+
+height: 2em;
+}
+
+
+
+
+

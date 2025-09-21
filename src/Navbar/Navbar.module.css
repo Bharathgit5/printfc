@@ -1,0 +1,50 @@
+
+/*
+nav{
+
+color: white;
+ background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+ justify-content: flex-end;
+  z-index: 999;
+} 
+
+button {
+  background-color: black;
+  color: white;
+ border: 2px solid white;
+
+  padding: 6px;
+}
+*/
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  z-index: 999;
+}
+
+/* Style your buttons if needed */
+button {
+  background-color: black;
+  color: white;
+ border: 2px solid white;
+  padding: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+

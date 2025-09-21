@@ -1,0 +1,204 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Mono:wght@600&family=Urbanist:wght@900&display=swap');
+
+
+body{
+  font-family: 'montserrat';
+  
+}
+                  /*........................start of select css .....................*/
+                      
+                       .card-head{
+                       
+                        color: black;
+                        padding: 15px;
+                     font-size: 2.5vh;
+                     font-weight: 900;
+                    
+                      }
+                       .card-body2{
+                        text-align: center;
+                        margin: auto;
+                        font-size: 2vh;
+
+                      }
+                      .form-check-input{
+                        margin-right: 10px;
+                      }
+                  
+                      .form-check1, .form-check2 {
+                        float: left;
+                        margin-top: 50px;
+                        margin-bottom: 20px;
+                        margin-right: 30px;
+                    }
+                   .form-check3{
+                        float: left;
+                        margin-right: 35px;
+                        clear: left;
+                       
+                    }
+                    /*.form-check4{
+                      float: left;
+                     
+                    }*/
+                    .form-check4{
+                      float: left;
+                      margin-left: 5px;
+                    }
+                    
+
+                      
+                      /*........................end of select css .....................*/
+                       /*........................start of showprice css .....................*/
+                      .card-body3{
+                        text-align: center;
+                        margin: auto;
+                      
+                      }
+                      #card-txt{
+                        font-size: 2.2vh;
+                        font-weight: 400;
+                      }
+                      table, th, td {
+                        border:1px solid black;
+                        margin: 20px;
+                       
+                      }
+                      #showpricebtn{
+                        margin-top: 20px;
+                        
+                      }
+                      a:hover{
+                        color: white;
+                      }
+                     a{
+                      text-decoration: none;
+                      color: white;
+                      
+                     }
+                     .bill{
+                      font-size: 1.5rem;
+                      color: rgb(5, 168, 5);
+                     }
+                
+                     
+                       /*........................end of showprice css .....................*/
+                     
+                      
+                
+                         .card-body2{
+                           height: 150px;
+                           background-color: white;
+                           color: #494747;
+                           border-radius: 10px;
+                         }
+                         .card-body3{
+                          height: 250px;
+                          background-color: white;
+                          color: #494747;
+                          border-radius: 10px;
+                         }
+                         #card2,#card3{
+                   
+                           margin-top: 50px;
+                           border-radius: 10px;
+                           margin-left: 20px;
+                           margin-right: 20px;
+                           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                           
+                         }
+                    
+                         .work-container {
+                          width: 80vw;
+                          padding: 1.5rem;
+                         font-size: 0.8rem;
+                          margin-top: 5rem;
+                          background-color: white;
+                          color: #494747;
+                          border-radius: 0.5rem;
+                        }
+                        
+                        .work-container .main-heading {
+                          font-size: 2rem;
+                          font-weight: bolder;
+                          word-spacing: 0.11rem;
+                          padding-bottom: 20px;
+                          
+                        }
+                        
+                        
+                        .work-container .sub-heading {
+                          font-size: 1.5rem;
+                          font-weight: normal;
+                        }
+                        .fontawesome-style {
+                          font-size: 2rem;
+                          display: grid;
+                          place-items: center;
+                          text-align: center;
+                          margin: 0.5rem auto; 
+                        
+                        }
+                        .work-container-subdiv .main-hero-para {
+                          width: 100%;
+                        }
+                      
+                        #footer,#contact-section{
+                          width: 80vw;
+                          padding: 1rem;
+                          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                          background-color: white;
+                          color: black;
+                          border-radius: 0.5rem;
+                        
+                        }
+                    
+                       .connect,.contact{
+                        text-align: center;
+                        margin: auto;
+                       
+                       }
+                       #contact-section{
+                        text-align: center;
+                        margin: auto;
+                        margin-top: 20px;
+                       
+                       }
+                       #footer{
+                        text-align: center;
+                        margin: auto;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                       
+                       }
+                       .socialicons,.contacticons{
+                        font-size: 20px;
+                       color: black;
+                        border-radius: 50px;
+                        margin: 20px;
+                        height: 50vw;
+                        line-height: 100px;
+                       
+                       }
+                      
+                     .copyright{
+                      text-align: center;
+                      margin-top: 10px;
+                      margin-bottom: -70px;
+                      
+                     }   
+                     .terms-and-conditions{
+                    text-align: center;
+                    margin-bottom: 20px;
+                     }
+                     .tc{
+                      text-decoration: none;
+                      color: black;
+                     }
+
+               
+ 
