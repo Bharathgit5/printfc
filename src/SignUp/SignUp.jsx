@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 import mylogo from '../images/mylogo.png';
 import Alert from '../pages/Alert';
 import InputControls from "../InputControls/InputControls";
-import styles from "./Signup.module.css";
+import styles from "./SignUp.module.css";
 
 export default function SignUp() {
   const [username, setUsername] = useState("");
