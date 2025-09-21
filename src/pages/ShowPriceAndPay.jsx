@@ -50,7 +50,7 @@ const ShowPriceAndPay = ({ count, copies, selectedValue, selectedValue2, uploade
 
       console.log("Sending order payload:", orderPayload, "token:", localStorage.getItem("token"));
 
-      const res = await fetch("http://localhost:5000/api/orders", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE}/api/orders`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -67,7 +67,7 @@ const ShowPriceAndPay = ({ count, copies, selectedValue, selectedValue2, uploade
 
       const orderId = savedOrder.order._id;
 
-      const paymentRes = await fetch("http://localhost:5000/api/payments/create-payment-order", {
+      const paymentRes = await fetch(`${import.meta.env.VITE_API_BASE}/api/payments/create-payment-order`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ amount: totalPrice * 100, orderId }),
